@@ -1,0 +1,15 @@
+.nav a{
+    margin-right: 25px;
+    font-size: 28px;
+    color: aqua;
+}
+.nav a:hover{
+    text-shadow: 8px 1px 50px aqua;
+    transition:.5s ;
+    color: rgb(23, 135, 233);
+}
+.nav a.active{
+    text-decoration: underline;
+    color: purple;
+    background-color: gray;
+}
